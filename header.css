@@ -10,8 +10,8 @@ header {
 
 
 #searcher {
-
-  
+  float: right;
+  margin: 2%;
 }
 /* Style the navbar */
 #navbar {
@@ -60,8 +60,5 @@ header {
 
 .menu {
   top: 0;
-  weight: 10%;
-  font-family: Droid Sans;
-
 
 }
