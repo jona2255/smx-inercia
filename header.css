@@ -6,12 +6,40 @@ header {
   background: 100%;
   background-color: #cacfd2;
   padding: 1%;
+
+}
+
+#header-top:after {
+    content: "";
+    display: table;
+    clear: both;
+
 }
 
 
+#header-top {
+
+
+}
+
+#header-bottom {
+
+
+}
+
+#logo {
+float: left;
+margin-bottom: 1%;
+}
+
+
+
 #searcher {
-  float: right;
+  text-align: center;
   margin: 2%;
+  margin-left: 30%;
+  float: left;
+
 }
 /* Style the navbar */
 #navbar {
@@ -37,12 +65,12 @@ header {
 }
 
 #navbar a:hover {
-  background-color: #ddd;
+  background-color: tomato;
   color: black;
 }
 
 #navbar a.active {
-  background-color: #4CAF50;
+  background-color: #d0513a;
   color: white;
 }
 
