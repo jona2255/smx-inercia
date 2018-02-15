@@ -1,10 +1,16 @@
-div { border: 1px solid #585858; }
+div { border: 1px solid #585858;
+      margin-left: 3.5px;
+      margin-right: 3.5px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+}
 
 #content-wrapper{
-  width:62.5%;
+  width:63%;
   margin: 0 auto;
 }
 
+/*Slider*/
 
 #banner{
 width: 1140px;
@@ -12,32 +18,45 @@ height: 532px;
 float: left;
 }
 
-.img-container{
-  width: 360px;
-  height: 181.85px;
-  float: left;
+/*Images*/
+
+#img-container{
+  text-align: center;
 }
 
-#img1{
-
+.banners{
+  width: 555px;
+  height: 107px;
+  display: inline-block;
 }
 
-#img2{
-
+.medium-imgs{
+  width: 555px;
+  height: 280px;
+  display: inline-block;
 }
 
-#img3{
-
+.little-imgs{
+  width: 366px;
+  height: 181px;
+  display: inline-block;
 }
 
-#img4{
+/*Brands*/
 
+#brands-title{
+  width: 1140px;
+  height: 48px;
 }
 
-#img5{
-
+#brands-carrousel{
+  width: 1140px;
+  height: 70px;
 }
 
-#img6{
-
+.brands-imgs{
+  width: 180px;
+  height: 70px;
+  display: inline-block;
+  margin: 0 auto;
 }
