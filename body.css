@@ -1,8 +1,4 @@
 div { border: 1px solid #585858;
-      margin-left: 3.5px;
-      margin-right: 3.5px;
-      margin-top: 10px;
-      margin-bottom: 10px;
 }
 
 #content-wrapper{
@@ -10,36 +6,53 @@ div { border: 1px solid #585858;
   margin: 0 auto;
 }
 
+
 /*Slider*/
 
 #banner{
 width: 1140px;
 height: 532px;
-float: left;
+margin: 0 auto;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 
 /*Images*/
 
 #img-container{
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .banners{
   width: 555px;
   height: 107px;
   display: inline-block;
+  margin-left: 3.5px;
+  margin-right: 3.5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .medium-imgs{
   width: 555px;
   height: 280px;
   display: inline-block;
+  margin-left: 3.5px;
+  margin-right: 3.5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .little-imgs{
   width: 366px;
   height: 181px;
   display: inline-block;
+  margin-left: 3.5px;
+  margin-right: 3.5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /*Brands*/
@@ -47,11 +60,19 @@ float: left;
 #brands-title{
   width: 1140px;
   height: 48px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 3.5px;
+  margin-right: 3.5px;
 }
 
 #brands-carrousel{
   width: 1140px;
   height: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 3.5px;
+  margin-right: 3.5px;
 }
 
 .brands-imgs{
@@ -59,4 +80,5 @@ float: left;
   height: 70px;
   display: inline-block;
   margin: 0 auto;
+
 }
