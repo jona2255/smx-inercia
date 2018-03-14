@@ -1,4 +1,11 @@
-footer {
+.footer {
   height: 1092.25px;
   width: 1845px;
+  border: 1px solid black;
+}
+
+#footer-first-section:after, #footer-second-section:after  {
+    content: "";
+    display: table;
+clear: both;
 }
