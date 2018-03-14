@@ -1,0 +1,19 @@
+div { border: 1px solid #585858;
+}
+
+#content-wrapper {
+  width: 100%;
+  height: 5392px;;
+}
+
+#main-page {
+  width: 878px;
+  height: 2090px;
+  float: right;
+}
+
+#sub-menu {
+  width: 293px;
+  height: 5323px;
+  float: left;
+}
