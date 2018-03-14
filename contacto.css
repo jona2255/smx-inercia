@@ -10,7 +10,7 @@
 }
 
 .options {
-  border: 1px solid black;
+  border: thin solid black;
   padding: 5%;
   margin: 5%;
   text-align: center;
@@ -47,11 +47,11 @@
 }
 
 #second-right-content {
-  border: 1px solid black;
+  border: thin solid black;
   max-width: 100%;
-  height: 600px;
-  padding: 5%;
-  margin: 2%;
+  height: 350px;
+  padding: 1%;
+  margin: 1%;
 }
 
 #help {
@@ -60,15 +60,69 @@
 }
 
 .help-menus {
-
-
+  border: thin solid black;
+  padding: 2%;
+  margin-top: 50px;
+  text-align: center;
+  background-color: lightgrey;
+  float: left;
+  position: absolute;
 }
 
 #map {
   float: right;
   height: 65%;
+  margin: 2%;
 }
 
 #third-right-content {
+  max-width: 100%;
+  margin: 1%;
+
+}
+
+.col-form {
+  width: 50%;
+  float: left;
+  border: thin solid black;
+  padding: 2%;
+}
+
+.col-form input{
+  width: 100%;
+  margin: 2%;
+
+}
+
+.contact-form {
+  width: 100%;
+  float: left;
+  border: thin solid black;
+  padding: 2%;
+}
+
+.contact-form input{
+  margin: 1%;;
+
+}
+.comments-form {
+  border: thin solid black;
+  width: 100%;
+  padding: 2%;
+}
+
+.comments-form select {
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 1%;
+
+}
+
+.comments-form input {
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 1%;
 
 }
