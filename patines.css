@@ -2,18 +2,33 @@ div { border: 1px solid #585858;
 }
 
 #content-wrapper {
-  width: 100%;
+  width: 1845px;
   height: 5392px;;
 }
 
 #main-page {
-  width: 878px;
+  width: 70%;
   height: 2090px;
   float: right;
 }
 
+#page-title {
+  width: 850px;
+  height: 50.5px;
+}
+
+#banner-patines {
+  width: 850.5px;
+  height: 192px;
+}
+
+#content-page {
+  width: 850px;
+  height: 1797px;
+}
+
 #sub-menu {
-  width: 293px;
+  width: 30%;
   height: 5323px;
   float: left;
 }
