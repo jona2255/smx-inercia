@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>inercia-smx</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+<body>
+
+  <div id="content-wrapper">
+		<div id="content">
+			<!-- 1140 x 532 px -->
+			<div id="banner">
+			<!-- Cambiar tamaño previamente a las imagenes -->
+				<img class="slides" src=https://via.placeholder.com/1140x532>
+				<img class="slides" src=>
+				<img class="slides" src=https://via.placeholder.com/1140x532>
+				<img class="slides" src=>
+				<!-- Botones cambio de imagen
+				<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+				-->
+			</div>
+
+			<script>
+				var myIndex = 0;
+				carousel();
+
+				function carousel() {
+				    var i;
+				    var x = document.getElementsByClassName("slides");
+				    for (i = 0; i < x.length; i++) {
+				       x[i].style.display = "none";
+				    }
+				    myIndex++;
+				    if (myIndex > x.length) {myIndex = 1}
+				    x[myIndex-1].style.display = "block";
+				    setTimeout(carousel, 5000); // Change image every 5 seconds
+				}
+			</script>
+
+			<!-- 1140 x 422.2 px (div)
+					 555 x 107 px (x2 imgs)
+					 555 x 280 px (x2 imgs)
+					 366 x 181 px (x3 imgs)
+			-->
+			<div id="img-container">
+
+				<div class="banners">
+					<img src="https://via.placeholder.com/555x107">
+				</div>
+
+				<div class="banners">
+					<img src="https://via.placeholder.com/555x107">
+				</div>
+
+				<div class="medium-imgs">
+					<img src="https://via.placeholder.com/555x280">
+				</div>
+
+				<div class="medium-imgs">
+					<img src="https://via.placeholder.com/555x280">
+				</div>
+
+				<div class="little-imgs">
+					<img src="https://via.placeholder.com/366x181">
+				</div>
+
+				<div class="little-imgs">
+					<img src="https://via.placeholder.com/366x181">
+				</div>
+
+				<div class="little-imgs">
+					<img src="https://via.placeholder.com/366x181">
+				</div>
+
+			</div>
+
+		<!-- 1140 x 48 px
+				 1140 x 70 px
+	-->
+
+		<div id="brands-title">
+			<p>Brands</p>
+
+		</div>
+
+<!-- 190 x 70 px (x6 imgs)-->
+
+		<div id="brands-carrousel">
+
+			<div class="brands-imgs">
+				<img src="http://via.placeholder.com/188x70">
+			</div>
+
+			<div class="brands-imgs">
+				<img src="http://via.placeholder.com/188x70">
+			</div>
+
+			<div class="brands-imgs">
+				<img src="http://via.placeholder.com/188x70">
+			</div>
+
+			<div class="brands-imgs">
+				<img src="http://via.placeholder.com/188x70">
+			</div>
+
+			<div class="brands-imgs">
+				<img src="http://via.placeholder.com/188x70">
+			</div>
+
+			<div class="brands-imgs">
+				<img src="http://via.placeholder.com/188x70">
+			</div>
+
+		</div>
+	</div>
+	</div>
+</body>
+</html>
