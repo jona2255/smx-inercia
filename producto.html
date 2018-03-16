@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>producto-smx</title>
+	<link rel="stylesheet" type="text/css" href="producto.css" />
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+
+<body>
+<id w3-include-html="header.html"></id>
+	<div id="content-wrapper">
+
+		<!--
+					1140 x 879 px (div)
+					1140 x 744 px (product-section)
+
+					682 x 744 px (product-info)
+					682 x 165 px (product-name)
+					682 x 170 px (product-price)
+					682 x 76 px (product-size)
+					682 x 91 px (product-cart)
+					682 x 66 px (product-share)
+					682 x 105 px (product-similars)
+
+					478 x 744 px (product-img)
+					458 x 458 px (principal-img)
+					458 x 107 px (little-imgs-container)
+					99 x 99 px (little-img)
+
+	 -->
+
+		<div id="product">
+
+			<div id="product-section">
+
+				<div id="product-info">
+
+
+					<div id="product-info-wrapper">
+
+						<div id="product-ref">
+							<p>SMX-070318</p>
+						</div>
+
+						<div id="product-name">
+							<img id="brand-logo" src="http://via.placeholder.com/180x60">
+							<p>BOTA USD CARBON FREE <br> TEAM BLANCO-AMARILLO</p>
+							<div id="short-description">
+								<p>USD rules!</p>
+							</div>
+						</div>
+
+						<div id="product-price">
+							<div id="price-box">
+								<p><span class="old-price"><del>299,99 €</del></span> <span class="green-price">239,99 €</span> <span class="iva">(IVA incl)</span></p>
+							</div>
+							<div id="product-payment">
+								<p>-o solo-</p>
+								<p>25,00€/mes en <span w3-include-html="dropdown-cuota.html"></span> cuotas</p>
+								<p>Coste unico incluido de 5,00€ por cuota</p>
+								<br>
+								<p><span id="grey-color">Preguntas del producto ()</span>
+									<p/>
+									<br>
+
+							</div>
+						</div>
+
+						<div id="product-size">
+							<p>*Talla EU</p>
+							<div w3-include-html="dropdown-tallas.html"></div>
+						</div>
+
+						<div id="product-cart">
+							<input type="number" name="quantity" placeholder="Cantidad" min="1" max="6">
+
+							<button type="button" onclick="alert('Producto añadido al carrito')">Añadir al carrito</button>
+							<p><span class="tip">*Recibe primero, paga despues.</span></p>
+						</div>
+
+
+						<!--
+
+							32 x 32 px 5 imgs (social-network)
+
+					-->
+
+
+						<div id="product-share">
+
+							<img class="social-network" src="http://via.placeholder.com/32x32">
+							<img class="social-network" src="http://via.placeholder.com/32x32">
+							<img class="social-network" src="http://via.placeholder.com/32x32">
+							<img class="social-network" src="http://via.placeholder.com/32x32">
+							<img class="social-network" src="http://via.placeholder.com/32x32">
+
+						</div>
+
+						<div id="product-similars">
+
+							<p><b>Encuentra productos similares en otras categorías:</b></p>
+							<a href="http://www.inercia.com/es/patines/patines-en-linea/agresivo-freestyle/botas-agresivo.html">patines/patines-en-linea/agresivo-freestyle/botas-agresivo</a>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div id="product-img">
+					<div id="principal-img">
+						<img src="http://via.placeholder.com/462x462">
+					</div>
+
+					<div id="little-imgs-container">
+
+						<div class="little-img">
+							<img src="http://via.placeholder.com/99x99">
+						</div>
+
+						<div class="little-img">
+							<img src="http://via.placeholder.com/99x99">
+						</div>
+
+						<div class="little-img">
+							<img src="http://via.placeholder.com/99x99">
+						</div>
+
+						<div class="little-img">
+							<img src="http://via.placeholder.com/99x99">
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			</div>
+			<!--
+						1140 x 135 px (div)
+						378 x 135 px (service box)
+		 -->
+
+			<div id="services">
+
+				<div id="service-box-1">
+					<img src="http://via.placeholder.com/378x120">
+				</div>
+
+				<div id="service-box-2">
+					<img src="http://via.placeholder.com/378x120">
+				</div>
+
+				<div id="service-box-3">
+					<img src="http://via.placeholder.com/378x120">
+				</div>
+
+			</div>
+
+
+		<!--
+					1140 x 284 px (div)
+	 -->
+
+		<div id="info-box">
+
+			<!-- Tab links -->
+			<div class="tab">
+				<button class="tablinks" onclick="openCity(event, 'descripcion')" id="defaultOpen">Descripción</button>
+				<button class="tablinks" onclick="openCity(event, 'detalles')">Detalles</button>
+				<button class="tablinks" onclick="openCity(event, 'preguntas')">Preguntas y respuestas</button>
+				<button class="tablinks" onclick="openCity(event, 'opiniones')">Opiniones</button>
+				<button class="tablinks" onclick="openCity(event, 'tallas')">Tabla de tallas</button>
+			</div>
+
+			<!-- Tab content -->
+			<div id="descripcion" class="tabcontent">
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+					sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+					Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
+					Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+					Nam quam nunc, blandit vel, luctus pulvinar.
+				</p>
+
+			</div>
+
+			<div id="detalles" class="tabcontent">
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+					sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+					Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
+					Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+					Nam quam nunc, blandit vel, luctus pulvinar.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+					sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+					Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
+					Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+					Nam quam nunc, blandit vel, luctus pulvinar.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+					sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+					Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
+					Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+					Nam quam nunc, blandit vel, luctus pulvinar.
+				</p>
+			</div>
+
+			<div id="preguntas" class="tabcontent">
+
+			</div>
+
+			<div id="opiniones" class="tabcontent">
+
+			</div>
+
+			<div id="tallas" class="tabcontent">
+
+			</div>
+
+		</div>
+
+
+		<!-- 1140 x 244 px
+				150 x 191.4 px (div imagen + texto)
+				150 x 150 px (div imagen)
+				150 x 36.4 px (div texto)
+	 -->
+
+
+		<!--OFFERS-->
+
+
+		<div id="offers">
+			<div class="offers-title">
+				<p><b>Los clientes que compraron este producto también compraron</b></p>
+
+			</div>
+			<div class="offers-imgs-container">
+				<div class="offers-imgs">
+					<img src="http://via.placeholder.com/150x150">
+				</div>
+				<div class="offers-price">
+					<p>
+						Producto 123,45€
+					</p>
+				</div>
+			</div>
+
+			<div class="offers-imgs-container">
+				<div class="offers-imgs">
+					<img src="http://via.placeholder.com/150x150">
+				</div>
+				<div class="offers-price">
+					<p>
+						Producto 123,45€
+					</p>
+				</div>
+			</div>
+
+			<div class="offers-imgs-container">
+				<div class="offers-imgs">
+					<img src="http://via.placeholder.com/150x150">
+				</div>
+				<div class="offers-price">
+					<p>
+						Producto 123,45€
+					</p>
+				</div>
+			</div>
+
+			<div class="offers-imgs-container">
+				<div class="offers-imgs">
+					<img src="http://via.placeholder.com/150x150">
+				</div>
+				<div class="offers-price">
+					<p>
+						Producto 123,45€
+					</p>
+				</div>
+			</div>
+
+			<div class="offers-imgs-container">
+				<div class="offers-imgs">
+					<img src="http://via.placeholder.com/150x150">
+				</div>
+				<div class="offers-price">
+					<p>
+						Producto 123,45€
+					</p>
+				</div>
+			</div>
+
+			<div class="offers-imgs-container">
+				<div class="offers-imgs">
+					<img src="http://via.placeholder.com/150x150">
+				</div>
+				<div class="offers-price">
+					<p>
+						Producto 123,45€
+					</p>
+				</div>
+			</div>
+
+			<div class="offers-imgs-container">
+				<div class="offers-imgs">
+					<img src="http://via.placeholder.com/150x150">
+				</div>
+				<div class="offers-price">
+					<p>
+						Producto 123,45€
+					</p>
+				</div>
+			</div>
+
+		</div>
+
+
+		<!--RECOMENDED-->
+
+
+		<div id="recomended">
+			<div class="recomended-title">
+
+				<p><b>Otros clientes también compraron</b></p>
+
+			</div>
+			<div class="recomended-imgs-container">
+				<div class="recomended-imgs">
+					<img src="http://via.placeholder.com/150x150">
+				</div>
+				<div class="recomended-price">
+					<p>
+						Producto 123,45€
+					</p>
+				</div>
+			</div>
+
+			<div class="recomended-imgs-container">
+				<div class="recomended-imgs">
+					<img src="http://via.placeholder.com/150x150">
+				</div>
+				<div class="recomended-price">
+					<p>
+						Producto 123,45€
+					</p>
+				</div>
+			</div>
+
+			<div class="recomended-imgs-container">
+				<div class="recomended-imgs">
+					<img src="http://via.placeholder.com/150x150">
+				</div>
+				<div class="recomended-price">
+					<p>
+						Producto 123,45€
+					</p>
+				</div>
+			</div>
+
+			<div class="recomended-imgs-container">
+				<div class="recomended-imgs">
+					<img src="http://via.placeholder.com/150x150">
+				</div>
+				<div class="recomended-price">
+					<p>
+						Producto 123,45€
+					</p>
+				</div>
+			</div>
+
+			<div class="recomended-imgs-container">
+				<div class="recomended-imgs">
+					<img src="http://via.placeholder.com/150x150">
+				</div>
+				<div class="recomended-price">
+					<p>
+						Producto 123,45€
+					</p>
+				</div>
+			</div>
+
+			<div class="recomended-imgs-container">
+				<div class="recomended-imgs">
+					<img src="http://via.placeholder.com/150x150">
+				</div>
+				<div class="recomended-price">
+					<p>
+						Producto 123,45€
+					</p>
+				</div>
+			</div>
+
+			<div class="recomended-imgs-container">
+				<div class="recomended-imgs">
+					<img src="http://via.placeholder.com/150x150">
+				</div>
+				<div class="recomended-price">
+					<p>
+						Producto 123,45€
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<id w3-include-html="footer.html"></id>
+
+
+	<script>
+		w3.includeHTML();
+	</script>
+
+	<script src="def-info.js"></script>
+
+</body>
+
+</html>

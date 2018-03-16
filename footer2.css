@@ -1,0 +1,10 @@
+.footer {
+  height: 1092.25px;
+  width: 1845px;
+}
+
+#footer-first-section:after, #footer-second-section:after  {
+    content: "";
+    display: table;
+clear: both;
+}

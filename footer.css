@@ -1,37 +1,164 @@
-#footer-first-section {
-  background-color: #848484;
+div {
+}
+.clearfix {
+  clear: both;
 }
 
-#footer-second-section {
-  background-color: #585858;
+#footer-wrapper{
+  width: 100%;
+  height: 1091px;
 }
 
-.footer-a {
-  width: 19.5%;
-  font-size: 12px;
+#first-section{
+  width: 100%;
+  height: 477px;
+  background-color: #d9d9d9;
 }
 
-
-.title {
-  font-size: 16px;
-  font-family: sans-serif;
-  padding: 5px;
+#second-section{
+  width: 100%;
+  height: 522px;
+  background-color: #bfbfbf;
 }
 
-#a1 {
+#third-section{
+  width: 100%;
+  height: 91.5px;
+  background-color: #404040;
+  color: #ffffff;
+}
+
+#fs-wrapper{
+  width: 1170px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#ss-wrapper{
+  width: 1170px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#ts-wrapper{
+  width: 1170px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#atencion-cliente{
+  height: 239.2px;
+  width: 258px;
   float: left;
-  padding-left: 100px;
 }
 
-#a2 {
+#sobre-nosotros{
+  height: 218.76px;
+  width: 258px;
   float: left;
 }
 
-#a3 {
+#mantente-dia{
+  height: 223.2px;
+  width: 258px;
   float: left;
- }
-
-#a4 {
-  float: left;
-  padding-right: 100px;
 }
+
+#container {
+  width: 230px;
+  height: 36px;
+}
+
+#contacto{
+  height: 390px;
+  width: 388px;
+  float: right;
+}
+
+  #formas-metodos{
+    height: 365px;
+    width: 259px;
+    float: left;
+    font-family: sans-serif;
+  }
+
+  #forma-pago{
+    height: 183px;
+    width: 100%;
+    display: inline-block;
+  }
+
+  #metodo-envio{
+    height: 135px;
+    width: 100%;
+  }
+
+  #garantia-compra{
+    height: 306px;
+    width: 259px;
+    float: left;
+  }
+
+  #puntuacion {
+    width: auto 230px;
+    height: auto 134px;
+  }
+
+  #verificado {
+    width: auto 230px;
+    height: auto 109px;
+  }
+
+  #nuestras-ventajas{
+    height: 420px;
+    width: 384px;
+    float: left;
+  }
+
+  #nuestr-ventj {
+    width: auto 360px;
+    height: auto 420px;
+  }
+
+  #cosas-colaboradores{
+    height: 322px;
+    width: 260px;
+    float: right;
+  }
+
+  #mas-cosas{
+    height: 195px;
+    width: 100%;
+  }
+
+  h6 {
+    margin: 2px;
+  }
+
+  #colaboradores{
+    height: 97px;
+    width: 100%;
+  }
+
+#content {
+  width: auto 1170px;
+  height: auto 41.5px;
+  float: left;
+  margin-top: 30px;
+}
+
+#inercia-logo {
+  float: left;
+}
+
+#black-slide {
+  margin-left: 25px;
+  float: left;
+}
+
+#addresses {
+  float: right;
+  margin-left: 70px;
+}
+
+#{}
