@@ -1,6 +1,7 @@
-div {
+/*div {
  border: 1px solid #585858;
-}
+}*/
+
 
 /*PRODUCT*/
 
@@ -11,13 +12,13 @@ div {
 
 #product {
   width: 100%;
-  height: 879px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 #product-section {
   width: 100%;
   height: 744px;
+
 }
 
 /*PRODUCT - INFO*/
@@ -26,40 +27,59 @@ div {
   width: 674px;
   height: 100%;
   float: right;
+  border: thin solid #a6a6a6;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+#product-info-wrapper{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+
 }
 
 #product-name {
   width: 100%;
-  height: 178px;
   margin-bottom: 10px;
+  border-top: thin solid #a6a6a6;
 }
+
 
 #product-ref {
   width: 100%;
-  height: 38px;
   text-align: right;
   font-size: 11px;
+  border-top: 3px solid #8c8c8c;
+
 }
 
 #brand-logo {
   float: right;
+  margin-top: 15px;
+
 }
+
 
 #short-description {
   width: 100%;
-  height: 45px;
   font-size: 12px;
 }
 
 #product-price {
   width: 100%;
-  height: 170px;
   margin-bottom: 10px;
+  border-top: thin solid #a6a6a6;
+
+}
+
+#grey-color{
+  color: #808080;
+
 }
 
 #price-box{
   width: 100%;
-  height: 40px;
   margin-bottom: 10px;
 }
 
@@ -77,35 +97,69 @@ div {
 
 #product-payment{
 width: 300px;
-height: 90px;
 font-size: 12px;
+margin-bottom: 10px;
+
 }
 
 #product-size {
   width: 100%;
-  height: 76px;
   margin-bottom: 20px;
 }
 
 #product-cart {
-  width: 227px;
-  height: 71px;
-  margin-bottom: 10px;
+  width: 100%;
+  margin-top: 10px;
+  border-top: thin solid #a6a6a6;
+  padding-top: 20px;
 }
+
+
 
 .tip{
   font-size: 11px;
+  padding-top: 0px
+
 }
 
 #product-share {
   width: 100%;
-  height: 86px;
   margin-bottom: 10px;
+  padding-top: 44px;
+}
+
+.social-network{
+  height: 32px;
+  width: 32px;
+
+
 }
 
 #product-similars {
   width: 100%;
-  height: 45px;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+a:link {
+    color: #666666;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #666666;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #666666;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: #666666;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 /*PRODUCT - IMG*/
@@ -119,6 +173,8 @@ font-size: 12px;
   width: 462px;
   height: 462px;
   margin-bottom: 5px;
+  border: thin solid #a6a6a6;
+
 }
 
 #little-imgs-container {
@@ -133,11 +189,13 @@ font-size: 12px;
   display: inline-block;
   margin-left: 3px;
   margin-right: 3px;
+  border: thin solid #a6a6a6;
+
 }
 
 #services {
   width: 100%;
-  height: 120px;
+
   margin-top: 10px;
   margin: 0 auto;
 }
@@ -165,15 +223,17 @@ font-size: 12px;
 #info-box {
   width: 100%;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 35px;
+
+
 }
 
 /* Style the tab */
 
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  border: thin solid #ccc;
+
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -213,11 +273,10 @@ font-size: 12px;
 
 #offers {
   width: 100%;
-  height: 244px;
   margin: 0 auto;
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 10px;
+
 }
 
 .offers-title {
@@ -225,6 +284,9 @@ font-size: 12px;
   height: 35px;
   margin-bottom: 10px;
   text-align: left;
+  border-bottom: thin solid #a6a6a6;
+
+
 }
 
 .offers-imgs-container {
@@ -236,6 +298,8 @@ font-size: 12px;
 .offers-imgs {
   width: 150px;
   height: 150px;
+  border: thin solid #a6a6a6;
+
 }
 
 .offers-price {
@@ -251,7 +315,6 @@ font-size: 12px;
   height: 244px;
   margin: 0 auto;
   text-align: center;
-  margin-top: 10px;
 }
 
 .recomended-title {
@@ -259,6 +322,8 @@ font-size: 12px;
   height: 35px;
   margin-bottom: 10px;
   text-align: left;
+  border-bottom: thin solid #a6a6a6;
+
 }
 
 .recomended-imgs-container {
@@ -270,6 +335,8 @@ font-size: 12px;
 .recomended-imgs {
   width: 150px;
   height: 150px;
+  border: thin solid #a6a6a6;
+
 }
 
 .recomended-price {
@@ -277,5 +344,3 @@ font-size: 12px;
   height: 36.4px;
   text-align: left;
 }
-
-/*TEXT PROPERTIES*/

@@ -37,42 +37,74 @@
 
 				<div id="product-info">
 
-					<div id="product-name">
+
+					<div id="product-info-wrapper">
+
 						<div id="product-ref">
 							<p>SMX-070318</p>
 						</div>
-						<img id="brand-logo" src="http://via.placeholder.com/180x60">
-						<p>BOTA USD CARBON FREE <br> TEAM BLANCO-AMARILLO</p>
-						<div id="short-description">
-							<p>USD rules!</p>
+
+						<div id="product-name">
+							<img id="brand-logo" src="http://via.placeholder.com/180x60">
+							<p>BOTA USD CARBON FREE <br> TEAM BLANCO-AMARILLO</p>
+							<div id="short-description">
+								<p>USD rules!</p>
+							</div>
 						</div>
-					</div>
 
-					<div id="product-price">
-						<div id="price-box">
-							<p><span class="old-price"><del>299,99 €</del></span> <span class="green-price">239,99 €</span> <span class="iva">(IVA incl)</span></p>
+						<div id="product-price">
+							<div id="price-box">
+								<p><span class="old-price"><del>299,99 €</del></span> <span class="green-price">239,99 €</span> <span class="iva">(IVA incl)</span></p>
+							</div>
+							<div id="product-payment">
+								<p>-o solo-</p>
+								<p>25,00€/mes en <span w3-include-html="dropdown-cuota.html"></span> cuotas</p>
+								<p>Coste unico incluido de 5,00€ por cuota</p>
+								<br>
+								<p><span id="grey-color">Preguntas del producto ()</span>
+									<p/>
+									<br>
+
+							</div>
 						</div>
-						<div id="product-payment">
-							<p>-o solo-</p>
-							<p>25,00€/mes en <span w3-include-html="dropdown-cuota.html"></span> cuotas</p>
-							<p>Coste unico incluido de 5,00€ por cuota</p>
+
+						<div id="product-size">
+							<p>*Talla EU</p>
+							<div w3-include-html="dropdown-tallas.html"></div>
 						</div>
-					</div>
 
-					<div id="product-size">
-						<p>*Talla EU</p>
-						<div w3-include-html="dropdown-tallas.html"></div>
-					</div>
+						<div id="product-cart">
+							<input type="number" name="quantity" placeholder="Cantidad" min="1" max="6">
 
-					<div id="product-cart">
-						<button type="button" onclick="alert('Producto añadido al carrito')">Añadir al carrito</button>
-						<p><span class="tip">*Recibe primero, paga despues.</span></p>
-					</div>
+							<button type="button" onclick="alert('Producto añadido al carrito')">Añadir al carrito</button>
+							<p><span class="tip">*Recibe primero, paga despues.</span></p>
+						</div>
 
-					<div id="product-share">
-					</div>
 
-					<div id="product-similars">
+						<!--
+
+							32 x 32 px 5 imgs (social-network)
+
+					-->
+
+
+						<div id="product-share">
+
+							<img class="social-network" src="http://via.placeholder.com/32x32">
+							<img class="social-network" src="http://via.placeholder.com/32x32">
+							<img class="social-network" src="http://via.placeholder.com/32x32">
+							<img class="social-network" src="http://via.placeholder.com/32x32">
+							<img class="social-network" src="http://via.placeholder.com/32x32">
+
+						</div>
+
+						<div id="product-similars">
+
+							<p><b>Encuentra productos similares en otras categorías:</b></p>
+							<a href="http://www.inercia.com/es/patines/patines-en-linea/agresivo-freestyle/botas-agresivo.html">patines/patines-en-linea/agresivo-freestyle/botas-agresivo</a>
+
+						</div>
+
 					</div>
 
 				</div>
@@ -106,6 +138,7 @@
 
 			</div>
 
+			</div>
 			<!--
 						1140 x 135 px (div)
 						378 x 135 px (service box)
@@ -127,7 +160,6 @@
 
 			</div>
 
-		</div>
 
 		<!--
 					1140 x 284 px (div)
@@ -208,7 +240,8 @@
 
 		<div id="offers">
 			<div class="offers-title">
-				<p><u>Offers</u></p>
+				<p><b>Los clientes que compraron este producto también compraron</b></p>
+
 			</div>
 			<div class="offers-imgs-container">
 				<div class="offers-imgs">
@@ -295,7 +328,9 @@
 
 		<div id="recomended">
 			<div class="recomended-title">
-				<p><u>Recomended</u></p>
+
+				<p><b>Otros clientes también compraron</b></p>
+
 			</div>
 			<div class="recomended-imgs-container">
 				<div class="recomended-imgs">
@@ -374,8 +409,10 @@
 				</div>
 			</div>
 		</div>
-
 	</div>
+
+
+
 
 	<script>
 		w3.includeHTML();
