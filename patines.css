@@ -1,34 +1,106 @@
 div { border: 1px solid #585858;
 }
 
-#content-wrapper {
+.clearfix::after clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#wrapper {
   width: 1845px;
-  height: 5392px;;
+  height: 17000px;
+}
+
+#content-wrapper {
+  width: 1173.5px;
+  height: 17000px;
 }
 
 #main-page {
-  width: 70%;
-  height: 2090px;
+  width: 878px;
+  height: 1639px;
   float: right;
 }
 
-#page-title {
+#title-patines {
   width: 850px;
-  height: 50.5px;
+  height: 45px;
 }
 
-#banner-patines {
-  width: 850.5px;
-  height: 192px;
+#content-wrapper-main-page {
+  width: 878px;
+  height: 1345px;
 }
 
-#content-page {
-  width: 850px;
-  height: 1797px;
+#clearfix {
+  width: 878px;
+  height: 650px;
 }
 
-#sub-menu {
-  width: 30%;
-  height: 5323px;
+#title-content-text {
+  padding-bottom: 10px;
+}
+
+#img-patije-estilo-vida {
   float: left;
+}
+
+#main-menu {
+  width: 292px;
+  height: 17000px;
+  float: left;
+}
+
+#wrapper-main-menu {
+  width: 266px;
+  height: 14746px;
+}
+
+#column-category {
+
+
+}
+
+#column-diameter {
+
+}
+
+#column-precio {
+
+}
+
+#column-talla {
+
+}
+
+#banner-compra-ahora {
+
+}
+
+#banner-inercia-store {
+
+}
+
+#banner-atencion-al-cliente {
+
+}
+
+#lo-mas-popular {
+
+}
+
+#las-mejores-ofertas {
+
+}
+
+.column-patines {
+  width: 283px;
+  height: 310px;
+  float: left;
+  text-align: center;
+}
+
+.title-box {
+  border: 1px solid black;
 }
