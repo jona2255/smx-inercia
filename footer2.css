@@ -1,7 +1,10 @@
 .footer {
   height: 1092.25px;
   width: 1845px;
+<<<<<<< HEAD
+=======
   border: 1px solid black;
+>>>>>>> f196c1370591dfa78c332eb27379fe4273fa4dc0
 }
 
 #footer-first-section:after, #footer-second-section:after  {

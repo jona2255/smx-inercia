@@ -8,6 +8,8 @@
 #content-wrapper {
   width: 63%;
   margin: 0 auto;
+  margin-top: 10px;
+
 }
 
 #product {
@@ -56,7 +58,7 @@
 
 #brand-logo {
   float: right;
-  margin-top: 15px;
+
 
 }
 
